@@ -1,0 +1,8 @@
+O trabalho deverá ser desenvolvido numa arquitectura Linux de 64 bits.
+
+O ficheiro "func.o" destina-se a ser usado numa arquitectura Linux de 64 bits.
+
+Exemplo de linha de comando para compilar um programa em C existente no ficheiro "programa.c" (a desenvolver) e gerando o ficheiro executável "programa":
+gcc -Wall -O2 -D_REENTRANT programa.c func.o -o programa -lpthread -lrt
+
+
