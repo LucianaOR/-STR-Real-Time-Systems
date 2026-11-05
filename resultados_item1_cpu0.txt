@@ -1,0 +1,25 @@
+ITEM 1 - MEDICAO DOS TEMPOS DE EXECUCAO
+Turma: 1 | Grupo: 0
+
+Funcao f1
+-------------------------
+Medicoes: 1000
+Tempo minimo: 35009.961 us
+Tempo medio:  35572.054 us
+Tempo maximo: 277759.288 us
+
+Funcao f2
+-------------------------
+Medicoes: 1000
+Tempo minimo: 55015.236 us
+Tempo medio:  55233.658 us
+Tempo maximo: 204555.718 us
+
+Funcao f3
+-------------------------
+Medicoes: 1000
+Tempo minimo: 85022.772 us
+Tempo medio:  85650.210 us
+Tempo maximo: 262851.810 us
+
+Medicoes concluidas.

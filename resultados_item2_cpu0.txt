@@ -1,0 +1,24 @@
+ITEM 2 - ANALISE DE ESCALONABILIDADE
+
+Utilizacao total: 4.6765 (467.65%)
+Limite RM para 3 tarefas: 0.7798 (77.98%)
+
+ORDEM RMPO (T1 > T2 > T3)
+------------------------------
+T1: R = 277.759 ms | Deadline = 100.000 ms | NAO ESCALONAVEL
+T2: R = 1037.834 ms | Deadline = 200.000 ms | NAO ESCALONAVEL
+T3: R = 1505.241 ms | Deadline = 300.000 ms | NAO ESCALONAVEL
+
+ORDEM INVERSA (T3 > T2 > T1)
+------------------------------
+T3: R = 262.852 ms | Deadline = 300.000 ms | ESCALONAVEL
+T2: R = 467.408 ms | Deadline = 200.000 ms | NAO ESCALONAVEL
+T1: R = 949.723 ms | Deadline = 100.000 ms | NAO ESCALONAVEL
+
+METODO DE AUDSLEY
+------------------------------
+Testar T1 como prioridade mais baixa: R = 949.723 ms -> FALHA
+Testar T2 como prioridade mais baixa: R = 1300.685 ms -> FALHA
+Testar T3 como prioridade mais baixa: R = 1505.241 ms -> FALHA
+
+Nao foi possivel atribuir prioridades a todas as tarefas.
